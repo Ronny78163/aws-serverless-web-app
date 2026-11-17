@@ -57,7 +57,11 @@ The frontend sends requests through Amazon API Gateway, which invokes AWS Lambda
 The results obtained was later stored in DynamoDB before sending the result to display on the web application
 
 ## Application Screenshot
-!
+!screenshots/calculation-test.png
+!screenshots/calculation-test2.png
+screenshots/calculation-test3.png
+
+screenshots/DynamoDB.png
 
 ## Acknowledgements
 This project was developed as part of my hands-on AWS learning journey, following the serverless web application tutorial by Tiny Technical Tutorials.
