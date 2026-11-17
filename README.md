@@ -10,3 +10,7 @@ The application allows users to enter a base number and an exponent to perform a
 The project was completed as a hands-on learning excercise
 
 ## AWS Services Used
+| Column 1 | Column 2 | Column 3 |
+| :--- | :---: | ---: |
+| Left-aligned | Centered | Right-aligned |
+| Row 2 | Row 2 | Row 2 |
