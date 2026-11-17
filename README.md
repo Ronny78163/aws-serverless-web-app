@@ -51,6 +51,14 @@ The application was tested to verify that the frontend communicates with the bac
 | 5 | 2 | 25 |
 | 3 | 4 | 81 |
 
+## Test Results
+The application successfully calculated and displayed the result for the verified test case(s)
+The frontend sends requests through Amazon API Gateway, which invokes AWS Lambda to perform the calculation
+The results obtained was later stored in DynamoDB before sending the result to display on the web application
+
+## Application Screenshot
+!
+
 ## Acknowledgements
 This project was developed as part of my hands-on AWS learning journey, following the serverless web application tutorial by Tiny Technical Tutorials.
 
