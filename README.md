@@ -10,7 +10,34 @@ The application allows users to enter a base number and an exponent to perform a
 The project was completed as a hands-on learning excercise
 
 ## AWS Services Used
-| Column 1 | Column 2 | Column 3 |
-| :--- | :---: | ---: |
-| Left-aligned | Centered | Right-aligned |
-| Row 2 | Row 2 | Row 2 |
+| AWS Service | Purpose |
+| :--- | :--- |
+| **AWS Amplify** | Hosts the web application frontend |
+| **Amazon API Gateway** | Provides an API endpoint for frontend requests |
+| **AWS Lambda** | Executes Python code to process calculations |
+| **Amazon Dynamo DB** | Stores calculation results |
+| **AWS IAM** | Manages permissions for AWS service integration |
+
+## Application Workflow
+1. The user accesses the web application hosted on AWS Amplify
+2. The user enters two numbers and submits a calculation
+3. The forntend sends a request to Amazon API Gateway
+4. API Gateway invokes the AWS Lambda function
+5. Lambda processes the calculation and writes the result to DynamoDB
+6. The calculated result is returned to the frontend and displayed to the user
+
+## Project Implementation
+The following components were configured during the tutorial:
+- IAM: Configured permissions allowing Lambda to interact with DynamoDB
+- Lambda: Deployed a Python function to process mathematical calculations
+- API Gateway: Created an API endpoint integrated with Lambda
+- DynamoDB: Created a table to store calculation results
+- Amplify: Hosted the frontend and connected it to the backend API
+
+## Learning Outcomes
+- Deploying AWS serverless application components
+- Connecting frontend and backend services through an API
+- Configuring AWS IAM permissions
+- Integrating Lambda with DynamoDB
+- Understanding how multiple AWS services work together
+
