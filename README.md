@@ -41,3 +41,8 @@ The following components were configured during the tutorial:
 - Integrating Lambda with DynamoDB
 - Understanding how multiple AWS services work together
 
+## Acknowledgements
+This project was developed as part of my hands-on AWS learning journey, following the serverless web application tutorial by Tiny Technical Tutorials.
+
+The project provided practical experience deploying and integrating AWS Amplify, API Gateway, Lambda, DynamoDB and IAM
+
