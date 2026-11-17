@@ -41,8 +41,19 @@ The following components were configured during the tutorial:
 - Integrating Lambda with DynamoDB
 - Understanding how multiple AWS services work together
 
+## Application Testing
+The application was tested to verify that the frontend communicates with the backend AWS services and displays the calculated result.
+
+### Functional Testing
+| Base Number | Exponent | Expected Result |
+| :--- | :--- | :--- |
+| 2 | 3 | 8 |
+| 5 | 2 | 25 |
+| 3 | 4 | 81 |
+
 ## Acknowledgements
 This project was developed as part of my hands-on AWS learning journey, following the serverless web application tutorial by Tiny Technical Tutorials.
 
 The project provided practical experience deploying and integrating AWS Amplify, API Gateway, Lambda, DynamoDB and IAM
+
 
